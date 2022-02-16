@@ -1,0 +1,104 @@
+body{
+    background-color: #f1f1f1;
+}
+.new-task{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    height: 200px;
+    width: 550px;
+    display: flex;
+    align-items: center;/*по центру по вертикали*/
+    
+}
+.input-title{
+    background-color: #f1f1f1;
+    font-family: 'Gideon Roman', cursive;
+font-family: 'Oswald', sans-serif;
+
+    font-size: 28px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 80px;
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+.save-task{
+    background-color:#FFDAB9;
+    height: 200px;
+    width: 150px;
+    border-radius: 10%;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10px;
+
+    font-size: 28px;
+    
+}
+.input-description{
+    background-color: #ffffff;
+    font-family: 'Gideon Roman', cursive;
+font-family: 'Oswald', sans-serif;
+
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100px;
+    width: 400px;
+    font-size: 28px;
+    
+}
+.Name{
+    font-size: 58px;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Oswald', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    
+}
+    
+.task{
+    font-size: 26px;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Oswald', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    border: solid;
+    
+}
+.title{
+    flex-direction: row;
+    margin-left: 40px;
+    
+    
+
+
+}
+.Description{
+    margin-left: 300px;
+    
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+
+}
+.tasks{
+    margin-top: 50px;
+
+}
+.new-task-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
